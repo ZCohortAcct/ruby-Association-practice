@@ -5,5 +5,6 @@ class CreateDrivers < ActiveRecord::Migration[5.2]
       t.integer :rating
       t.integer :money
       t.boolean :driving_status
+    end
   end
 end
